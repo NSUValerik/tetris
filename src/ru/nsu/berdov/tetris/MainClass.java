@@ -6,13 +6,13 @@ import ru.nsu.berdov.tetris.model.FieldModel;
 import ru.nsu.berdov.tetris.model.HighScores;
 import ru.nsu.berdov.tetris.model.ShapeFabric.BuilderChooser;
 
-import javax.swing.*;
+import java.awt.*;
 
 public class MainClass
 {
     public static void main(String[] args)
     {
-        SwingUtilities.invokeLater(new Runnable()
+        EventQueue.invokeLater(new Runnable()
         {
             public void run()
             {
